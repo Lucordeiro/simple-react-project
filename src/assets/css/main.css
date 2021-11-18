@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+    body{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: #3976bf;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    .content{
+        min-width: 600px;
+        text-align: center;
+    }
+    .cpanel-top{
+        width: 80%;
+        border: 1px solid red;
+        margin: 0 auto;
+    }
+    .cpanel-buttom{
+      width: 80%;
+      border: 1px solid red;
+      margin: 0 auto;
+    }
+    h1 {
+          box-shadow: .6em 0 0 white;
+          margin: 2rem auto;
+          width: 36ch;
+          overflow: hidden;
+          white-space: nowrap;
+          color: white;
+          animation: caret .7s step-end infinite alternate,type 7s steps(23, end);
+          display: flex;
+          flex-direction: row;
+    }
+  h2{
+    margin: 30px;
+    padding: 0;
+  }
+  a{
+    border: 1px solid red;
+    color: white;
+    margin: 0 auto;
+  }
+  input {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px 15px;
+    width: 80%;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+input:focus{
+  outline: none;
+}
+.group {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  height: 30px;
+  padding: 10px;
+  background: white;
+  color: #858f98;
+  min-width: 50px;
+  text-align: center;
+  font-size: 25px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.btn{
+    margin: 5px auto;
+    display:block;
+    cursor: pointer;
+    background-color: #3976bf;
+    color: white;
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 90%;
+    height: 50px;
+}
+.btn:hover{
+    background-color: white;
+    color:#1a73e8;
+}
+.title{
+  
+}
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+  
+  }
+  @keyframes caret { 
+    50% { 
+      box-shadow: .6em 0 0 transparent;
+    }
+  }
+  
+
+  @media only screen and (max-width: 600px){
+
+      .box{
+            width: 90%;
+      }
+
+  }
+
+
+  @media only screen and (min-width: 600px){
+    
+    .box{
+       width: 80%;
+    }
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+    .box{
+        width: 70%;
+    }
+  }
+
+
+  @media only screen and (min-width: 992px){
+    .box{
+      width: 40%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px){
+    .box{
+      width: 30%;
+    }
+  }
+
+
+ .fill:hover, .fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+.pulse:hover, .pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+ }
+}
+.close:hover, .close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+.raise:hover, .raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.up:hover, .up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+.slide:hover, .slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+.fill {
+  --color: #a972cb;
+  --hover: #cb72aa;
+}
+.pulse {
+  --color: white;
+  --hover: #ef8f6e;
+}
+.close {
+  --color: #ff7f82;
+  --hover: #ffdc7f;
+}
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+.up {
+  --color: #e4cb58;
+  --hover: #94e458;
+}
+.slide {
+  --color: #8fc866;
+  --hover: #66c887;
+}
+.offset {
+  --color: #19bc8b;
+  --hover: #1973bc;
+}
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+h1 {
+  font-weight: 400;
+}
+code {
+  color: #e4cb58;
+  font: inherit;
+}

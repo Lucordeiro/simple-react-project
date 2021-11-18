@@ -1,0 +1,16 @@
+//Personal information
+	name //basic
+	email //basic
+	phone
+	document
+	password //basic
+	
+//organization information
+	name
+	responsible name
+	phone primary
+	phone secundary
+	range_collaborators
+	
+
+	

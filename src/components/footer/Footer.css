@@ -1,0 +1,25 @@
+.footer{
+    height: 300px;
+    background: #3976bf;
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    
+    width: 17%;
+    margin: 0 auto;
+    border:1px solid red;
+}
+.footer ul{
+    color: white;
+    font-size: medium;
+    list-style-type: none;
+}
+.footer li{
+    margin-top: 10px;
+}
+.footer a{
+    color:#489be2;
+}.footer a:hover{
+    color:white;
+}
